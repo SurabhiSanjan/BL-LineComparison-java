@@ -29,7 +29,7 @@ public class LineComparison {
         System.out.println("Length: "+ length2);
         String l1 = String.valueOf(length1);
         String l2 = String.valueOf(length2);
-if(l1.equals(l2)){
+if(l1.compareTo(l2)==0){
     System.out.println("Both Lines are of Equal Length");
 }
 else{
