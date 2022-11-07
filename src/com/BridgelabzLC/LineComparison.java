@@ -9,7 +9,7 @@ import java.lang.reflect.*;
         System.out.println("Length 2: " + length2);
         String l1 = String.valueOf(length1);
         String l2 = String.valueOf(length2);
-        if (l1.compareTo(l2) == 0) {
+        if (l1.equals(l2)) {
             System.out.println("Both Lines are of Equal Length");
         } else {
             System.out.println("Both Lines are of different Lengths");
